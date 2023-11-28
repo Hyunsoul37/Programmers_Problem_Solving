@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class HandlingCode {
+public class Problem_181932 {
     public String solution(String code) {
         String answer = "";
         boolean mode = true;
@@ -30,7 +30,7 @@ public class HandlingCode {
     }
 
     public static void main(String[] args) {
-        HandlingCode hc = new HandlingCode();
+        Problem_181932 hc = new Problem_181932();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
 

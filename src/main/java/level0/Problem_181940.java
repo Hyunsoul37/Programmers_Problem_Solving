@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class StringMultiplication {
+public class Problem_181940 {
     public String solution(String my_string, int k) {
         String answer = "";
 
@@ -14,7 +14,7 @@ public class StringMultiplication {
     }
 
     public static void main(String[] args) {
-        StringMultiplication sm = new StringMultiplication();
+        Problem_181940 sm = new Problem_181940();
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
         int n = sc.nextInt();

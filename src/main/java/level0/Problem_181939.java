@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class CombineBigger {
+public class Problem_181939 {
     public int solution(int a, int b) {
         int answer = 0;
         String s1 = Integer.toString(a) + Integer.toString(b);
@@ -17,7 +17,7 @@ public class CombineBigger {
     }
 
     public static void main(String[] args) {
-        CombineBigger cb = new CombineBigger();
+        Problem_181939 cb = new Problem_181939();
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();

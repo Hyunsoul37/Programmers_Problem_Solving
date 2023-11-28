@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class ComparingOperationValueOfTwoNumbers {
+public class Problem_181938 {
     public int solution(int a, int b) {
         int answer = 0;
         String s1 = Integer.toString(a) + Integer.toString(b);
@@ -15,7 +15,7 @@ public class ComparingOperationValueOfTwoNumbers {
     }
 
     public static void main(String[] args) {
-        ComparingOperationValueOfTwoNumbers co = new ComparingOperationValueOfTwoNumbers();
+        Problem_181938 co = new Problem_181938();
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();

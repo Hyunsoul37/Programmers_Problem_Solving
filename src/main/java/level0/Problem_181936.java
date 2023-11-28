@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class CommonMultiple {
+public class Problem_181936 {
     public int solution(int number, int n, int m) {
         int answer = 0;
 
@@ -13,7 +13,7 @@ public class CommonMultiple {
     }
 
     public static void main(String[] args) {
-        CommonMultiple cm = new CommonMultiple();
+        Problem_181936 cm = new Problem_181936();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int a = sc.nextInt();

@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class ShuffleStrings {
+public class Problem_181942 {
     public String solution(String str1, String str2) {
         String answer = "";
 
@@ -24,7 +24,7 @@ public class ShuffleStrings {
         Scanner sc = new Scanner(System.in);
         String s1 = sc.next();
         String s2 = sc.next();
-        ShuffleStrings ss = new ShuffleStrings();
+        Problem_181942 ss = new Problem_181942();
 
         System.out.println(ss.solution(s1, s2));
     }

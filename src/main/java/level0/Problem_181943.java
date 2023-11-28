@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class OverwritingStrings {
+public class Problem_181943 {
     public String solution(String my_string, String overwrite_string, int s) {
         String answer = "";
         int overLen = overwrite_string.length();
@@ -20,7 +20,7 @@ public class OverwritingStrings {
         String s2 = sc.next();
         int n = sc.nextInt();
 
-        OverwritingStrings os = new OverwritingStrings();
+        Problem_181943 os = new Problem_181943();
 
         s1 = os.solution(s1, s2, n);
 

@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class MultipleOfN {
+public class Problem_181937 {
     public int solution(int num, int n) {
         int answer = 0;
 
@@ -16,7 +16,7 @@ public class MultipleOfN {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int n = sc.nextInt();
-        MultipleOfN mn = new MultipleOfN();
+        Problem_181937 mn = new Problem_181937();
 
         System.out.println(mn.solution(num, n));
 

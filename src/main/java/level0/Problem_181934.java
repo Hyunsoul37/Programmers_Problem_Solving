@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class ConditionString {
+public class Problem_181934 {
     public int solution(String ineq, String eq, int n, int m) {
         int answer = 0;
 
@@ -29,7 +29,7 @@ public class ConditionString {
     }
 
     public static void main(String[] args) {
-        ConditionString cs = new ConditionString();
+        Problem_181934 cs = new Problem_181934();
         Scanner sc = new Scanner(System.in);
         String ineq = sc.next();
         String eq = sc.next();

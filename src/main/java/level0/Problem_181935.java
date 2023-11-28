@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class DifferentValuesOddEven {
+public class Problem_181935 {
     public int solution(int n) {
         int answer = 0;
 
@@ -37,7 +37,7 @@ public class DifferentValuesOddEven {
     }
 
     public static void main(String[] args) {
-        DifferentValuesOddEven dv = new DifferentValuesOddEven();
+        Problem_181935 dv = new Problem_181935();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 

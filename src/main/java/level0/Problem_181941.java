@@ -1,6 +1,6 @@
 package level0;
 
-public class ConvertingListOfCharactersToString {
+public class Problem_181941 {
     public String solution(String[] arr) {
         String answer = "";
 
@@ -12,7 +12,7 @@ public class ConvertingListOfCharactersToString {
     }
 
     public static void main(String[] args) {
-        ConvertingListOfCharactersToString cl = new ConvertingListOfCharactersToString();
+        Problem_181941 cl = new Problem_181941();
         String[] arr = {"a", "b", "c"};
 
         System.out.println(cl.solution(arr));

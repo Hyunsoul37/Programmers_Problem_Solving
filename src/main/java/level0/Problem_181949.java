@@ -2,7 +2,7 @@ package level0;
 
 import java.util.Scanner;
 
-public class SwitchUpperLower {
+public class Problem_181949 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
